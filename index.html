@@ -9,7 +9,22 @@
     <script src="main.js"></script>
     <title>Aditya's Portfolio</title>
 </head>
-
+<style>
+    .slideImage {
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        
+    }
+    .slideImage img{
+        border-radius: 70%;
+        float: right;
+        width: 38em !important;
+        height: 38em;
+        object-fit: cover;
+    }
+</style>
 <body>
     <!-- For refrense visit my Github profile Becuase some functionality not working at here
 Github Link: https://github.com/vats147/vatsalportfolio  -->
@@ -43,19 +58,31 @@ Github Link: https://github.com/vats147/vatsalportfolio  -->
             </nav>
         </header>
 
-        <div class="hero">
-            <h1>
+        <div class="slideImage" style="z-index: -10;" >
+            <img src="FB_IMG_1673208807396.jpg" alt="image-2022-07-26-201920536"/>
+            
+        </div>
+
+        <div class="hero" style="z-index: 100;">
+            <!-- <h1>
                 Hi. I am
                 <span class="hero-name">Aditya</span>
                 <span class="hero-name">Chowdhary</span>
-            </h1>
+            </h1> -->
 
             <div class="hero-about">
+                <h1>
+                    Hi I am
+                    <span class="hero-name">Aditya</span>
+                    <span class="hero-name">Chowdhary</span>
+                </h1>
                 <p>
+
                     "Creating something from nothing",<br>
                     I am a full stack developer. I enjoy writing clean code, building
                     beautiful user interfaces.
                 </p>
+                
 
                 <a class="resume"
                     href="https://drive.google.com/file/d/1UZMnri8jL66FQLxrk86gbq1B10MtaUvo/view?usp=sharing">
@@ -64,8 +91,114 @@ Github Link: https://github.com/vats147/vatsalportfolio  -->
             </div>
         </div>
 
-        <section id="project" class="project">
+        <section id="project" class="project" style="margin-top:12em;">
             <h2 class="section-title">Projects</h2>
+
+
+            <div class="project-container">
+
+                <img src="design/ORCHID LOGO.jpg" alt="image-2022-07-26-201920536" height="250" width="450" style="object-fit: cover;" />
+
+                <div class="project-content">
+                    <h3>Logo's and Graphics</h3>
+                    <p>We don't stop designing until you're 110% satisfied with your design.View our examples here!</p>
+
+                    <ul class="project-skill">
+                        <li>Adobe Illustrator</li>
+                        
+                    </ul>
+
+                    <ul class="project-link">
+                        <li>
+                           
+                                <a href="previewOne.html"><span class="btn">Preview</span></a>
+                            
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-container">
+
+                <img src="Screenshot (76).png" alt="image-2022-07-26-201920536" height="250" width="450" style="object-fit: cover;" />
+
+                <div class="project-content">
+                    <h3>Orchid Website</h3>
+                    <p>Build a Wedding Website for a client using</p>
+
+                    <ul class="project-skill">
+                        <li>HTML</li>
+                        <li>Figma</li>
+                        <li>Css</li>
+                        <li>JAVASCRIPT</li>
+                        
+                    </ul>
+
+                    <ul class="project-link">
+                        <li>
+                            
+                                <a href="http://www.orchidentertainment.in/?i=1"><span class="btn">Preview</span></a>
+                            
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-container">
+
+                <img src="Screenshot (77).png" alt="image-2022-07-26-201920536" height="250" width="450" style="object-fit: cover;" />
+
+                <div class="project-content">
+                    <h3>Jaas Entertainment</h3>
+                    <p>Build a Event Management Website for a client.Design the whole UI/UX of the web pages and implemented the code.</p>
+
+                    <ul class="project-skill">
+                        <li>HTML</li>
+                        <li>Figma</li>
+                        <li>Css</li>
+                        <li>JAVASCRIPT</li>
+                        
+                    </ul>
+
+                    <ul class="project-link">
+                        <li>
+                            
+                                <a href="https://www.jaasentertainment.in/wedding.php"><span class="btn">Preview</span></a>
+                           
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            
+                
+    
+                <div class="project-container">
+    
+                    <img src="FB_IMG_1673208823517.jpg" alt="image-2022-07-26-201920536" height="250" width="450" style="object-fit: cover;" />
+    
+                    <div class="project-content">
+                        <h3>Wall Art's</h3>
+                        <p> Check out some of our favorite wall art for interiors </p>
+    
+                        <ul class="project-skill">
+                            <li>Adobe Illustrator</li>
+                            
+                        </ul>
+    
+                        <ul class="project-link">
+                            <li>
+                                <a class="resume" href="https://shareshell.000webhostapp.com/">
+                                    <a href="previewTwo.html"><span class="btn">Preview</span></a>
+                                </a>
+                            </li>
+    
+                        </ul>
+                    </div>
+                </div>
 
             <div class="project-container">
 
@@ -169,6 +302,10 @@ Github Link: https://github.com/vats147/vatsalportfolio  -->
           </div> -->
         </section>
 
+
+
+      
+
         <section id="stack" class="stack">
             <h2 class="section-title">Tech Stack</h2>
             <div class="stack-container">
@@ -179,6 +316,14 @@ Github Link: https://github.com/vats147/vatsalportfolio  -->
                 <div class="tech-container">
                     <i class="devicon-css3-plain colored"></i>
                     CSS
+                </div>
+                <div class="tech-container">
+                    <i class="devicon-illustrator-plain colored"></i>
+                    Illustrator
+                </div>
+                <div class="tech-container">
+                    <i class="devicon-figma-plain colored"></i>
+                    Figma
                 </div>
                 <div class="tech-container">
                     <i class="devicon-javascript-plain colored"></i>
