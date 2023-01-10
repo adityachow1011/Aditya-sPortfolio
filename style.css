@@ -22,7 +22,7 @@
 }
 
 .body-dark {
-	--bg: #1c1c1c;
+	--bg: #000000;
 	--bg-alt: rgba(39, 39, 39, 0.33);
 	--fg: #ffffff;
 	--fg-alt: #ffffff;
@@ -155,6 +155,8 @@ a {
 }
 
 @media (max-width: 580px) {
+
+	
 	h2 {
 		font-size: 1.5rem;
 	}
@@ -392,6 +394,26 @@ footer small {
 }
 
 @media (max-width: 580px) {
+
+
+
+	.slideImage {
+        width: 100% !important;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        
+    }
+    .slideImage img{
+		border-radius: 50px;
+		float: right;
+		width: 100% !important;
+		height: 38em;
+		object-fit: cover;
+    }
+	.project{
+		margin-top:1em !important;
+	}
 	nav ul {
 		flex-direction: column;
 		padding: 4em 0;
@@ -416,7 +438,7 @@ footer small {
 	.hero,
 	.hero-about,
 	section {
-		margin-top: 2.5em;
+		margin-top: 9.5em;
 	}
 
 	.hero {
